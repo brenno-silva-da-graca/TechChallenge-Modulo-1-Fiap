@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechChallenge-Modulo-1-Fiap", "TechChallenge-Modulo-1-Fiap.csproj", "{DC998A89-72D2-483F-8006-9D49CB85AA26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechChallenge-Modulo-1-Fiap", "TechChallenge-Modulo-1-Fiap\TechChallenge-Modulo-1-Fiap.csproj", "{9CED1CD7-5736-4E40-AE5A-FE810012D80C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C09762FC-2A5B-4194-9D37-5927B86D233F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC998A89-72D2-483F-8006-9D49CB85AA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC998A89-72D2-483F-8006-9D49CB85AA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC998A89-72D2-483F-8006-9D49CB85AA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC998A89-72D2-483F-8006-9D49CB85AA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CED1CD7-5736-4E40-AE5A-FE810012D80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CED1CD7-5736-4E40-AE5A-FE810012D80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CED1CD7-5736-4E40-AE5A-FE810012D80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CED1CD7-5736-4E40-AE5A-FE810012D80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09762FC-2A5B-4194-9D37-5927B86D233F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09762FC-2A5B-4194-9D37-5927B86D233F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09762FC-2A5B-4194-9D37-5927B86D233F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09762FC-2A5B-4194-9D37-5927B86D233F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {52E6B3F4-05EE-4C7B-8660-B1983319B891}
+		SolutionGuid = {4E9E3B28-BFD2-4226-ACF9-CB05ED9C9565}
 	EndGlobalSection
 EndGlobal
